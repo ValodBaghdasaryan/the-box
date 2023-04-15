@@ -18,18 +18,12 @@
   }
   &__title {
     color: var(--secondary-color);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.25rem;
-    line-height: 42px;
+    @extend %primary-title;
     padding-bottom: 1.875em;
   }
   &__paragraph {
     color: var(--secondary-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5em;
-    line-height: 28px;
+    @extend %md-title;
     
   }
 
@@ -42,10 +36,7 @@
     margin: 2em 0 0 3em;
     color: var(--secondary-color);
     background-color: transparent;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 21px;
+    @extend %secondary-paragraph;
     text-align: center;
     border: 1px solid var(--secondary-color);
     cursor: pointer;
