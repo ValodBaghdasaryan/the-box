@@ -1,0 +1,14 @@
+@use "../abstracts";
+
+.footer {
+  padding: 1.625em 0;
+  background-color: var(--primary-color);
+
+  &__paragraph {
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,31 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+
+.services {
+  background-color: var(--milk-color);
+  padding-bottom: 5em;
+  &__boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 6.125em;
+    margin-top: 5em;
+  }
+  &__box {
+    text-align: center;
+    padding: 38px 71px;
+    border: 1px solid var(--black);
+    color: var(--primary-color);
+    @extend %body2;
+    text-align: center;
+  }
+
+  &__box:nth-child(even) {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+  &__img {
+    border-bottom: 3px solid var(--gray400);
+    padding-bottom: 1em;
+  }
+}

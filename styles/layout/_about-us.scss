@@ -1,0 +1,50 @@
+@use "../abstracts"as * ;
+@use "../base/"as *;
+@use "../themes"as *;
+
+
+
+.about-us {
+  .container {
+    position: relative;
+  }
+  &__img {
+    display: block;
+  }
+
+  &__box {
+    position: absolute;
+    width: 29.25rem;
+    top: 50px;
+    right: 0;
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+  }
+  &__title {
+    padding: 2.5em 0 2em 2em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 42px;
+  }
+  &__paragraph {
+    padding: 0 0 0 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__btn {
+    padding: 1em 1.3125em;
+    margin: 2em 0 0 3em;
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 21px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+  }
+}

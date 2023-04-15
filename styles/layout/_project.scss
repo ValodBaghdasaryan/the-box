@@ -1,0 +1,98 @@
+@use "../abstracts" as *;
+@use "../themes"as *;
+
+.project {
+  padding: .5em 0 2em 0;
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.5em;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25em;
+    line-height: 42px;
+    padding: 3em 0 1em 0;
+  }
+  &__boxes {
+    display: flex;
+    gap: 1.8em;
+    flex-wrap: wrap;
+  }
+  &__item {
+    padding: 0.7em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 28px;
+    list-style: none;
+    color: var(--gray700);
+  }
+  &__item:first-child {
+    color: var(--primary-color);
+    border-left: 0.5em solid var(--primary-color);
+  }
+  &__item:hover {
+    background-color: var(--gray500);
+    border-left: 0.5em solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  &__img {
+    width: 100%;
+    display: block;
+  }
+  &__paragraphs {
+    padding: 0.75em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 23px;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+  }
+
+  &__paragraph {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__about--person {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 12px 0 16px 0;
+  }
+  &__circal {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+
+  }
+
+  
+  &__slacks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+
+  &__button {
+    width: 295px;
+    height: 64px;
+    background-color: var(--black900);
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

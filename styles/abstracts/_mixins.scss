@@ -1,0 +1,5 @@
+@mixin fjca($js,$al){
+    display: flex;
+    justify-content:$js;
+    align-items: $al;
+}

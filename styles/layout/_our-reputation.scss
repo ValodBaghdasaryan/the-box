@@ -1,0 +1,32 @@
+@use "../themes"as *;
+
+.our-reputation {
+    padding-bottom: 3.75em;
+ 
+  &__boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.125em;
+  }
+  &__box {
+    border: 1.4px solid var(--gray600);
+    border-radius: 4px;
+    padding: 1.25em;
+    margin-top: 3.125em;
+  }
+  &__tit {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.4375em;
+    padding: 1.125em 0;
+  }
+
+  &__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19p;
+    color: var(--gray900);
+  }
+}

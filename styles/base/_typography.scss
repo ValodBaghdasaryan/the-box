@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+
+%body1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: crem(16px);
+  line-height: 1.5;
+}
+
+%body2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: crem(24px);
+  line-height: 1.43;
+}
+
+%button-text {
+  font-weight: 500;
+  font-size: crem(14px);
+  line-height: 1.75;
+  text-transform: uppercase;
+}
+
+%primary-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: crem(36px);
+  line-height: 1.5;
+}

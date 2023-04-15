@@ -1,0 +1,25 @@
+@use "base/reset";
+@use "layout/header";
+@use "layout/main-section";
+@use "layout/our-reputation";
+@use "layout/about-us";
+@use "layout/services";
+@use "layout/consultation";
+@use "layout/project";
+@use "layout/registration";
+@use "layout/contact-us";
+@use "layout/footer";
+
+
+@use "abstracts/functions";
+@use "components/container";
+@use "components/tittles";
+@use "themes/index";
+
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    @extend %color;
+
+}

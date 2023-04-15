@@ -1,0 +1,55 @@
+@use "../abstracts"as *;
+@use "../themes"as *;
+
+.registration {
+  padding-bottom:4em;
+  background-color: var(--milk-color);
+  &__paragraph {
+    text-align: center;
+    padding: 1.25em 0 2.25em 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 23px;
+    text-align: center;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+  }
+  &__input {
+    padding: 0.5em 1.25em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1875rem;
+    line-height: 25px;
+    color: var(--gray650);
+    border: 1px solid  var(--gray600);
+    border-radius: 4px;
+  }
+  &__textarea {
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+  }
+  &__err {
+    color: var(--gray800);
+    padding-top: 0.5em;
+  }
+  &__button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 1.75em;
+    padding: 1em 6.4375em;
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
+    border: none;
+    border-radius: 2px;
+
+  }
+}

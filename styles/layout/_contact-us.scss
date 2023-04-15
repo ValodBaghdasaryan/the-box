@@ -1,0 +1,48 @@
+@use "../abstracts" as *;
+@use "../themes" as *;
+
+.contact-us {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    padding-top: 85px;
+  }
+  &__paragraph {
+    padding: 1.5em 0 1em 0;
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__logo {
+    margin: 1.5em 0;
+  }
+  &__networks {
+    padding-left: 10em;
+  }
+  &__images {
+    margin-top: 2.5em;
+  }
+  &__email {
+    margin-top: 2em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: crem(18px);
+    line-height: 1.2em;
+    padding: 0.3em 0.5em;
+  }
+  &__button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: crem(18px);
+    line-height: 1.2;
+    text-align: center;
+    background-color: var(--orange);
+    padding: 0.4em 0.5em;
+    color: var(--secondary-color);
+    border: none;
+
+  }
+}
