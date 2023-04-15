@@ -234,6 +234,13 @@ body {
   line-height: 1.43;
 }
 
+.about-us__btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.2em;
+}
+
 .about-us .container {
   position: relative;
 }
@@ -257,19 +264,11 @@ body {
 }
 .about-us__paragraph {
   padding: 0 0 0 2.5em;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
 }
 .about-us__btn {
   padding: 1em 1.3125em;
   margin: 2em 0 0 3em;
   color: var(--primary-color);
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 21px;
   text-align: center;
   background-color: var(--secondary-color);
   border: none;

@@ -27,3 +27,17 @@
   font-size: crem(36px);
   line-height: 1.5;
 }
+
+%lg-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 42px;
+}
+
+%secondary-paragraph{
+  font-style: normal;
+  font-weight: 600;
+  font-size: crem(20px);
+  line-height: 1.2em;
+}
