@@ -1,4 +1,6 @@
-@use "../abstracts";
+@use "../abstracts"as *;
+@use "../base/"as *;
+@use "../themes"as *;
 
 .footer {
   padding: 1.625em 0;
@@ -6,9 +8,6 @@
 
   &__paragraph {
     color: var(--secondary-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    @extend %body1;
   }
 }

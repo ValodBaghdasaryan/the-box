@@ -1,4 +1,6 @@
-@use "../themes"as *;
+@use "../abstracts" as *;
+@use "../base/"as *;
+@use "../themes" as *;
 
 .our-reputation {
     padding-bottom: 3.75em;
@@ -15,10 +17,7 @@
     margin-top: 3.125em;
   }
   &__tit {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 1.4375em;
+    @extend %tit-size;
     padding: 1.125em 0;
   }
 

@@ -1,3 +1,7 @@
+@use "../abstracts" as *;
+@use "../base/"as *;
+@use "../themes" as *;
+
 .main-section {
   position: relative;
 
@@ -8,9 +12,6 @@
     position: absolute;
     top: 50%;
     left: 10%;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 84px;
+    
   }
 }
