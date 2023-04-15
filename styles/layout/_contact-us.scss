@@ -11,9 +11,7 @@
   &__paragraph {
     padding: 1.5em 0 1em 0;
     color: var(--primary-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    @extend %sm-title;
     line-height: 23px;
   }
   &__logo {
@@ -27,18 +25,12 @@
   }
   &__email {
     margin-top: 2em;
-    font-style: normal;
-    font-weight: 400;
-    font-size: crem(18px);
-    line-height: 1.2em;
+    @extend %body1;
     padding: 0.3em 0.5em;
   }
   &__button {
     font-style: normal;
-    font-weight: 600;
-    font-size: crem(18px);
-    line-height: 1.2;
-    text-align: center;
+    @extend %secondary-paragraph;
     background-color: var(--orange);
     padding: 0.4em 0.5em;
     color: var(--secondary-color);

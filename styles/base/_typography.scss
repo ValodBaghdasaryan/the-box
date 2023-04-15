@@ -3,8 +3,8 @@
 %body1 {
   font-style: normal;
   font-weight: 400;
-  font-size: crem(16px);
-  line-height: 1.5;
+  font-size: crem(17px);
+  line-height: 1.4;
 }
 
 %body2 {
@@ -38,12 +38,18 @@
   font-style: normal;
   font-weight: 400;
   font-size: crem(24px);
-  line-height: 28px;
+  line-height:1.2em;
+}
+%sm-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: crem(20px);
+  line-height: 1.2em;
 }
 
 %secondary-paragraph {
   font-style: normal;
   font-weight: 600;
-  font-size: crem(20px);
+  font-size: crem(19px);
   line-height: 1.2em;
 }
