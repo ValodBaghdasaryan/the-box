@@ -1,5 +1,6 @@
-@use "../abstracts" as *;
-@use "../base" as *;
+@use "../abstracts"as * ;
+@use "../base/"as *;
+@use "../themes"as *;
 
 .services {
   background-color: var(--milk-color);

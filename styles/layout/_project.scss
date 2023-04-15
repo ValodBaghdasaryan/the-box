@@ -1,18 +1,16 @@
-@use "../abstracts" as *;
+@use "../abstracts"as * ;
+@use "../base/"as *;
 @use "../themes"as *;
 
 .project {
-  padding: .5em 0 2em 0;
+  padding: 0.5em 0 2em 0;
   &__container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 0.5em;
   }
   &__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.25em;
-    line-height: 42px;
+    @extend %lg-title;
     padding: 3em 0 1em 0;
   }
   &__boxes {
@@ -22,11 +20,7 @@
   }
   &__item {
     padding: 0.7em;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5em;
-    line-height: 28px;
-    list-style: none;
+    @extend %md-title;
     color: var(--gray700);
   }
   &__item:first-child {
@@ -44,25 +38,16 @@
   }
   &__paragraphs {
     padding: 0.75em;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.25em;
-    line-height: 23px;
+    @extend %tit-size;
     background-color: var(--primary-color);
-    color:var(--secondary-color);
+    color: var(--secondary-color);
   }
 
   &__paragraph {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    @extend %tit-size;
   }
   &__about--person {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    @extend %body1;
     padding: 12px 0 16px 0;
   }
   &__circal {
@@ -74,7 +59,8 @@
 
   }
 
-  
+
+
   &__slacks {
     width: 100%;
     display: flex;
@@ -90,9 +76,6 @@
     height: 64px;
     background-color: var(--black900);
     color: var(--secondary-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    @extend %body1;
   }
 }
